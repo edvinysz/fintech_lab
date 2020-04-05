@@ -2,6 +2,7 @@ package com.example.fintech_lab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -14,8 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onbuttonClick(View view) {
+    public void onTextButtonClick(View view) {
         TextView textMain = findViewById(R.id.textView);
         textMain.setText(R.string.main_text);
+    }
+
+    public void onColorButtonClick(View view) {
+        TextView textMain = findViewById(R.id.textView);
+        textMain.setTextColor(Color.RED);
     }
 }
