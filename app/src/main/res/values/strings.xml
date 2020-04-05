@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">fintech_lab</string>
+    <string name="main_text">Pakeistas tekstas</string>
 </resources>
