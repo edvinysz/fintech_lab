@@ -1,0 +1,2 @@
+rootProject.name='fintech_lab'
+include ':app'
