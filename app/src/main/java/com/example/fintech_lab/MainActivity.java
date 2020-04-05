@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         TextView textMain = findViewById(R.id.textView);
         textMain.setText(R.string.main_text);
     }
+
+    public void onColorButtonClick(View view) {
+        TextView textMain = findViewById(R.id.textView);
+        textMain.setTextColor(Color.RED);
+    }
 }
