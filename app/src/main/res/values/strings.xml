@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">fintech_lab</string>
-    <string name="main_text">Pakeistas tekstas</string>
-    <string name="text_button_text">Change text</string>
+    <string name="app_name">fintech_lab 2</string>
+    <string name="text_button_text">Calculate</string>
+    <string name="no_result_text">Press the button to calculate</string>
+    <string name="text_input_hint">Input text here!</string>
+    <string-array name="count_words_types">
+        <item>Words</item>
+        <item>Symbols</item>
+    </string-array>
+    <string name="error_input_empty">Please input some text first!</string>
+    <string name="error_type_empty">Please select counter type!</string>
 </resources>
