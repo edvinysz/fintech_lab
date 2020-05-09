@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">fintech_lab 2</string>
-    <string name="text_button_text">Calculate</string>
+    <string name="text_button_text">Add Note</string>
+    <string name="text_button_delete">Delete Note</string>
+    <string name="text_title">Input title here!</string>
+    <string name="text_note_text">Input note text here!</string>
     <string name="no_result_text">Press the button to calculate</string>
-    <string name="text_input_hint">Input text here!</string>
-    <string-array name="count_words_types">
-        <item>Words</item>
-        <item>Symbols</item>
-    </string-array>
     <string name="error_input_empty">Please input some text first!</string>
     <string name="error_type_empty">Please select counter type!</string>
 </resources>
