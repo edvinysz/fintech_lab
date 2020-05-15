@@ -35,10 +35,10 @@ public class WordCountHelper {
         If validation passed, return true, else false.
      */
     private boolean validate(String type, String input) {
-        if (input.isEmpty()) {
+        if (input == null || input.isEmpty()) {
             return false;
         }
-        else if (type.isEmpty()) {
+        else if (type == null || type.isEmpty()) {
             return false;
         }
 
