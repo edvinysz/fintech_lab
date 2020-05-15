@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     Spinner dropdown_menu;
+    public Context context = getApplicationContext();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
         String input = word_count_input.getText().toString();
 
         WordCountHelper word_count_helper = new WordCountHelper();
-        Context context = getApplicationContext();
-        int result = word_count_helper.wordCounterByType(type, input, context);
+        int result = word_count_helper.wordCounterByType(type, input);
 
         TextView count_words_result = findViewById(R.id.countWordsResults);
         count_words_result.setText(Integer.toString(result));

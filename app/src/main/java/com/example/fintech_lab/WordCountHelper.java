@@ -13,8 +13,8 @@ public class WordCountHelper {
     @return int
         Return word count by selected type.
      */
-    public int wordCounterByType(String type, String input, Context context) {
-        if (!validate(type, input, context)) {
+    public int wordCounterByType(String type, String input) {
+        if (!validate(type, input)) {
             return 0;
         }
 
@@ -34,28 +34,15 @@ public class WordCountHelper {
     @return boolean
         If validation passed, return true, else false.
      */
-    private boolean validate(String type, String input, Context context) {
+    private boolean validate(String type, String input) {
         if (input.isEmpty()) {
-            String error_message = context.getResources().getString(R.string.error_input_empty);
-            showError(context,error_message);
             return false;
         }
         else if (type.isEmpty()) {
-            String error_message = context.getResources().getString(R.string.error_type_empty);
-            showError(context,error_message);
             return false;
         }
 
         return true;
-    }
-
-    /*
-    Show error message using Toast.
-     */
-    private void showError(Context context, String message) {
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, message, duration);
-        toast.show();
     }
 
     /*
