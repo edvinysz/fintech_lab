@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Slide7"></activity>
+        <activity android:name=".Slide6" />
+        <activity android:name=".Slide5" />
+        <activity android:name=".Slide3" />
+        <activity android:name=".Slide2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">fintech_lab 2</string>
+    <string name="app_name">fintech_lab 5 OBDEleven pristatymas</string>
     <string name="text_button_text">Calculate</string>
     <string name="no_result_text">Press the button to calculate</string>
     <string name="text_input_hint">Input text here!</string>
@@ -9,4 +9,8 @@
     </string-array>
     <string name="error_input_empty">Please input some text first!</string>
     <string name="error_type_empty">Please select counter type!</string>
+
+    <string name="title_activity_slide2">Slide2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
